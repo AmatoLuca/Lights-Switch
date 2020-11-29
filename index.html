@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Switcher lights</title>
+</head>
+<body>
+    <header>
+        <h1>Switcher lights</h1>
+    </header>
+
+    <div id="container">
+        <div class="wr-lamps">
+             <div class="row">
+                 <div class="box"></div>
+                 <div class="box"></div>
+                 <div class="box"></div>
+                 <div class="box"></div>
+                 <div class="box"></div>
+             </div>
+             <div class="row">
+                <div class="box"></div>
+                <div class="box"><div id="lamp" class="lamp-1 ring backslash all"></div></div>
+                <div class="box"></div>
+                <div class="box"><div id="lamp" class="lamp-5 ring slash all"></div></div>
+                <div class="box"></div>
+            </div>
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"><div id="lamp" class="lamp-3 slash backslash point all"></div></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"><div id="lamp" class="lamp-2 ring slash all"></div></div>
+                <div class="box"></div>
+                <div class="box"><div id="lamp" class="lamp-4 ring backslash all"></div></div>
+                <div class="box"></div>
+            </div>
+            <div class="row">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+         </div>
+
+        <div class="switcher-container">
+            <div class="outer-switch">
+                <button id="my-button">Push the bottom</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
